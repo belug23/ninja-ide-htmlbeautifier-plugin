@@ -8,6 +8,7 @@ This plugins allows you to have your code pretty-printed by pressing CTRL+SHIFT+
 It uses beautifulsoup4 and html.parser.
 
 Warning for django templates :
+
     This parser works for it, but it will beautify the HTML not the django tags, so there will be some strange indentations.
     Error in html tags ending may cause some strange result (For me all my code was put into a link tag that was not closed).
 
