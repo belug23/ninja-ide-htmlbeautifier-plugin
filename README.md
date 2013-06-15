@@ -7,13 +7,17 @@ This plugins allows you to have your code pretty-printed by pressing CTRL+SHIFT+
 (It will not interfer with autopepper since there's files type validation)
 It uses beautifulsoup4 and html.parser.
 
-Warning for django templates :
+Warning for django templates
+----------------------------
 
-    This parser works for it, but it will beautify the HTML not the django tags, so there will be some strange indentations.
-    Error in html tags ending may cause some strange result (For me all my code was put into a link tag that was not closed).
+This parser **works** for it, but it will beautify the HTML not the django tags, so there will be some strange indentations.
+
+Error in html tags ending may cause some strange results (For me, all my code was put into a link tag that was not closed).
 
 
 Current-Version: 0.1
+
+Tested with : nindja-ide 2.2
 
 Version History
 ---------------
