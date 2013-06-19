@@ -39,9 +39,6 @@ __docformat__ = 'html'
 __source__ = ''
 __full_licence__ = ''
 
-import sys
-sys.path.append(
-    "/home/belug/.virtualenvs/ninja-ide-htmlbeautifier-plugin/bin/python")
 
 # imports
 import os
