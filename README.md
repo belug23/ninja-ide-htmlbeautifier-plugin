@@ -15,7 +15,7 @@ This parser **works** for it, but it will beautify the HTML not the django tags,
 Error in html tags ending may cause some strange results (For me, all my code was put into a link tag that was not closed).
 
 
-Current-Version: 0.1
+Current-Version: 0.2
 
 Tested with : nindja-ide 2.2
 
@@ -23,6 +23,9 @@ Version History
 ---------------
 
 * 0.1 - Initial pluggin
+* 0.2 - Added support indentation based on settings
+      - Added indentation for not indented section (Without that, the code would be destroyed after a few beautifying)
+      - Removed the bug that would indent more and more and more the multilines comments
 
 Thanks to
 ---------

@@ -23,12 +23,12 @@
 #  It uses beautifulsoup4 and html.parser
 #
 # Initial development: Belug
-#  Version: 0.1
+#  Version: 0.2
 #
 
 # metadata
 " HTMLBeautifier "
-__version__ = ' 0.1 '
+__version__ = ' 0.2 '
 __license__ = ' GPL '
 __author__ = ' Belug '
 __email__ = ' belug@oss.cx" '
